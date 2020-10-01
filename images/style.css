@@ -110,7 +110,7 @@ section {
    position: relative;
  }
  #container {
-   background: purple;
+   /* background: purple; */
    width: 780px;
    height: 2225px;
    display: flex;
@@ -428,6 +428,9 @@ section {
   border-bottom: solid 2px;
   line-height: 24px;
 }
+#side-text5 form {
+  position: relative;
+}
 
 #side-text5 .side-search {
   /* background: firebrick; */
@@ -436,6 +439,13 @@ section {
   margin: 0 auto;
   padding: 30px 0;
 }
+#side-text5 .side-search .fa-search{
+  position: absolute;
+  top: 24px;
+  right: 16px;
+  color: #888888;
+
+}
 
 #side-text5 .side-search input {
   margin-top: 10px;
@@ -443,8 +453,8 @@ section {
   height: 30px;
   border-radius: 30px;
   border: solid 1px #F5F6F5;
-
-;
+  margin-top: 16px;
+  outline: none;
 }
 
 #side-text6 {
@@ -470,10 +480,9 @@ section {
 }
 
 #side-text6 .side-recommend img {
-  display: inline-block;
   width: 95px;
   height: 55px;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .side-recommend ul  {
@@ -481,16 +490,18 @@ section {
 
 }
 .side-recommend ul li {
-
 }
+
 .side-recommend ul li img {
-margin: 0;
-padding: 0;
 }
 .side-recommend ul li p {
   font-size: 14px;
   font-weight: 300;
   line-height: 18px;
-  text-align: bottom;
-
+  height: 60px;
+  width: 180px;
+  display: inline-block;
+  margin-left: 16px;
+  margin-top: 32px;
+  letter-spacing: 1px;
 }
