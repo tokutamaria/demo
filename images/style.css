@@ -510,6 +510,7 @@ section {
   height: 550px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-left-head {
@@ -559,6 +560,10 @@ section {
   padding-left: 8px;
   border-left: solid 3px #9acc1e;
 }
+.footer-tag .f-tag {
+  width: 300px;
+  height: 130px;
+}
 
 .footer-tag .f-tag a {
   display: inline-block;
@@ -568,33 +573,78 @@ section {
   line-height: 20px;
   padding: 1px 8px;
   color: #ffffff;
-  margin-right: 4px;
-}
+  padding: 3px 8px;
+  }
+
+  #footer-center {
+    /* background: yellow; */
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin-top: 40px;
+
+  }
+  .footer-center-head{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .footer-archives {
+    margin-left: 100px;
+  }
+  .footer-category h3,
+  .footer-archives h3{
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    border-left: solid 3px #9acc1e;
+    padding-left: 8px;
+    font-weight: normal;
+    margin-bottom: 24px;
+  }
+  .footer-category ul li,
+  .footer-archives ul li{
+    font-size: 11px;
+    line-height: 17px;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
 
 
 
 .footer-right {
-  background: orange;
-  width: 300px;
+  /* background: orange; */
+  display: block;
+  width: 400px;
   height: 300px;
+  margin-top: 40px;
+  margin-left: -50px;
 }
-
-
-.footer-right-img ul  {
-  position: relative;
+.footer-right-img dl dt {
+  display: flex;
 }
-.footer-right-img {
+.footer-right-img dl img {
   display: inline-block;
-  width: 95px;
-  height: 55px;
-  margin-top: 20px;
+  width: 140px;
+  height: 80px;
+  padding-bottom: 20px;
 }
-.footer-right-img .footer-li {
-  position: absolute;
+.footer-right-img dl .p {
+  /* background: red; */
+  color: #ffffff;
   display: inline-block;
-  width: 170px;
+  width: 240px;
   height: 50px;
   font-size: 14px;
   line-height: 16px;
-  margin-left: 15px;
+  margin-left: 10px;
+}
+
+.footer-right .footer-post h3 {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  border-left: solid 3px #9acc1e;
+  color: #ffffff;
 }
